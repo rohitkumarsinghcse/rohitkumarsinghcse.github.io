@@ -21,7 +21,7 @@
 </p>
 
 <!-- hero screenshot -->
-![demo](https://user-images.githubusercontent.com/76105799/190883603-c888ebc3-9ef6-44d2-a8f1-0ed67bb5e4f5.png)
+![demo](https://github.com/rohitkumarsinghcse/rohitkumarsinghcse.github.io/blob/7585f30678220db32d84fda47ebb6b83c03fad0f/Home.png)
 
 ## Features 📋
 ⚡️ Minimal Design\
