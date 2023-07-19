@@ -204,7 +204,7 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
 });
 
 // github calender
- GitHubCalendar(".calendar", "sanajitjana", {
+ GitHubCalendar(".calendar","rohitkumarsinghcse", {
   responsive: true,
   global_stats: false,
   tooltips: true,
