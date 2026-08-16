@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Rohit Singh - Senior Full Stack Developer">
+
+    <title>Rohit Singh | Senior Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Background -->
+<div class="noise"></div>
+<div class="grid-background"></div>
+<div class="cursor-glow"></div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>&lt;</span>RS<span>/&gt;</span>
+    </a>
+
+    <nav id="navMenu">
+        <a href="#home">01.Home</a>
+        <a href="#about">02.About</a>
+        <a href="#skills">03.Skills</a>
+        <a href="#projects">04.Projects</a>
+        <a href="#experience">05.Experience</a>
+        <a href="#contact">06.Contact</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+</header>
+
+
+<!-- HERO -->
+<main>
+
+<section id="home" class="hero">
+
+    <div class="hero-left">
+
+        <div class="terminal-status">
+            <span class="status-dot"></span>
+            SYSTEM ONLINE
+        </div>
+
+        <p class="hero-small">
+            <span>root@rohit</span>:~$ whoami
+        </p>
+
+        <h1>
+            Rohit <span>Singh</span>
+        </h1>
+
+        <div class="hero-title">
+            <span id="typing"></span>
+            <span class="cursor">_</span>
+        </div>
+
+        <p class="hero-description" id="heroDescription"></p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-code"></i>
+                VIEW PROJECTS
+            </a>
+
+            <a id="resumeButton"
+               href="#"
+               target="_blank"
+               class="btn btn-outline">
+                <i class="fa-solid fa-download"></i>
+                RESUME
+            </a>
+
+        </div>
+
+        <div class="social-links" id="socialLinks"></div>
+
+    </div>
+
+
+    <div class="hero-right">
+
+        <div class="code-window">
+
+            <div class="window-header">
+
+                <div class="window-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span>rohit.ts</span>
+
+                <span class="window-secure">
+                    <i class="fa-solid fa-lock"></i>
+                </span>
+
+            </div>
+
+            <div class="code-body">
+
+<pre><code><span class="purple">const</span> <span class="blue">developer</span> = {
+
+  <span class="cyan">name</span>: <span class="green">"Rohit Singh"</span>,
+
+  <span class="cyan">role</span>:
+    <span class="green">"Senior Full Stack Developer"</span>,
+
+  <span class="cyan">stack</span>: [
+    <span class="green">"React"</span>,
+    <span class="green">"Node.js"</span>,
+    <span class="green">"Java"</span>,
+    <span class="green">"Spring Boot"</span>,
+    <span class="green">"PostgreSQL"</span>,
+    <span class="green">"AWS"</span>
+  ],
+
+  <span class="cyan">mindset</span>: <span class="green">"Build. Break. Improve."</span>,
+
+  <span class="cyan">available</span>: <span class="orange">true</span>
+};
+
+<span class="purple">export default</span> developer;</code></pre>
+
+            </div>
+
+        </div>
+
+        <div class="floating-card card-one">
+            <i class="fa-solid fa-server"></i>
+            <span>Backend</span>
+        </div>
+
+        <div class="floating-card card-two">
+            <i class="fa-solid fa-database"></i>
+            <span>Database</span>
+        </div>
+
+        <div class="floating-card card-three">
+            <i class="fa-solid fa-cloud"></i>
+            <span>Cloud</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+    <div class="section-heading">
+        <span>02</span>
+        <h2>About Me</h2>
+        <div></div>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-terminal">
+
+            <div class="terminal-top">
+                <span>rohit@dev-machine</span>
+                <span>● ● ●</span>
+            </div>
+
+            <div class="terminal-content">
+
+                <p>
+                    <span class="green">$</span>
+                    cat about_rohit.txt
+                </p>
+
+                <p class="terminal-text" id="aboutText"></p>
+
+                <p>
+                    <span class="green">$</span>
+                    ./current_status.sh
+                </p>
+
+                <div class="status-list">
+
+                    <div>
+                        <span>STATUS</span>
+                        <strong class="online">AVAILABLE</strong>
+                    </div>
+
+                    <div>
+                        <span>ROLE</span>
+                        <strong>FULL STACK</strong>
+                    </div>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong id="location"></strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-stats" id="stats"></div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+
+    <div class="section-heading">
+        <span>03</span>
+        <h2>Tech Arsenal</h2>
+        <div></div>
+    </div>
+
+    <p class="section-intro">
+        Technologies I use to design, build and deploy scalable applications.
+    </p>
+
+    <div class="skills-grid" id="skillsContainer"></div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+    <div class="section-heading">
+        <span>04</span>
+        <h2>Projects</h2>
+        <div></div>
+    </div>
+
+    <div class="projects-grid" id="projectsContainer"></div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+
+    <div class="section-heading">
+        <span>05</span>
+        <h2>Experience</h2>
+        <div></div>
+    </div>
+
+    <div class="timeline" id="experienceContainer"></div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+
+    <div class="section-heading">
+        <span>06</span>
+        <h2>Initialize Connection</h2>
+        <div></div>
+    </div>
+
+    <div class="contact-wrapper">
+
+        <div class="contact-left">
+
+            <p class="contact-command">
+                <span class="green">$</span>
+                ./connect_with_rohit.sh
+            </p>
+
+            <h2>
+                Let's build something
+                <span>exceptional.</span>
+            </h2>
+
+            <p id="contactDescription"></p>
+
+            <a id="emailLink"
+               href="#"
+               class="email-link">
+                <i class="fa-solid fa-envelope"></i>
+                <span id="emailText"></span>
+            </a>
+
+        </div>
+
+
+        <form id="contactForm" class="contact-form">
+
+            <div class="input-group">
+                <label>NAME</label>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+            </div>
+
+            <div class="input-group">
+                <label>EMAIL</label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required>
+            </div>
+
+            <div class="input-group">
+                <label>MESSAGE</label>
+                <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="Tell me about your project..."
+                    required></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">
+                SEND MESSAGE
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div>
+        <span class="green">&lt;/&gt;</span>
+        Crafted by Rohit Singh
+    </div>
+
+    <div>
+        © <span id="year"></span>
+        All systems operational.
+    </div>
+
+</footer>
+
+
+<button id="backTop" class="back-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
